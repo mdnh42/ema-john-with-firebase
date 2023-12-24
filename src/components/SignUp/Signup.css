@@ -1,0 +1,70 @@
+/* Add this to your SignUp.css file */
+
+.form-container {
+    width: 500px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow for depth */
+}
+
+.form-title {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    /* Add some space below the label */
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    background-color: #2A414F;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.btn-submit:hover {
+    background-color: #1C2A35;
+    /* Darken the background color on hover */
+}
+
+/* Additional Styles for Error Message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
